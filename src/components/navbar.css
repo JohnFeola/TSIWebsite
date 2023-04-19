@@ -1,0 +1,57 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:gray;
+  }
+  
+  .logo {
+    height: 90px;
+    width: auto;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 4rem
+  }
+  
+  .nav-item {
+    margin-left: 4rem;
+  }
+
+  .navbar-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .navbar-name h3,
+  .navbar-name h5,
+  .navbar-name h6{
+    margin: 0;
+    line-height: 1;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .nav-link:hover {
+    color: darkblue;
+    padding: 5px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  

@@ -1,0 +1,66 @@
+/* home.css */
+.home {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 2rem;
+    background-color: lightgray;
+    /* align-items: center; */
+  }
+  
+  .home-paragraph-one,
+  .home-paragraph-two {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .home-paragraph-two ul{
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  
+  .home-images-of-sprinklers {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .home-image-two img,
+  .home-image-three img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-image-four img {
+    width: 100%; /* Added to control the size of the image */
+    max-width: 800px; /* Added to limit the maximum width */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+
+  .home-image-four {
+    text-align: center;
+  }
+
+  .home-image-five img {
+    width: 50%; /* Added to control the size of the image */
+    max-width: 50%; /* Added to limit the maximum width */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 25px;
+  }
+
+  .home-image-five {
+    text-align: center;
+  }

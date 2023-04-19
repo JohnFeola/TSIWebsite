@@ -64,3 +64,8 @@
   .home-image-five {
     text-align: center;
   }
+
+  #intro{
+    font-size: large;
+    font-weight:bold;
+  }

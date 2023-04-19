@@ -1,0 +1,28 @@
+.contactus{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.contact-image img {
+    width: 50%; /* Added to control the size of the image */
+    max-width: 50%; /* Added to limit the maximum width */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 25px;
+  }
+
+  .home-image-five {
+    text-align: center;
+  }
+
+  .contactus h4 {
+  margin: 0; 
+  font-size: 250%;
+}
+
+.contactus h5{
+    margin: 0;
+    font-size: 150%;
+}

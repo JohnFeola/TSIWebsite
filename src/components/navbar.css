@@ -5,8 +5,12 @@
     align-items: center;
     padding: 1rem;
     background-color:gray;
+    margin-bottom: 0;
   }
   
+  #uto{
+    font-weight: bold;
+  }
   .logo {
     height: 90px;
     width: auto;
@@ -16,7 +20,8 @@
     list-style: none;
     display: flex;
     align-items: center;
-    padding-right: 4rem
+    padding-right: 6rem;
+    font-weight: bold;
   }
   
   .nav-item {
@@ -54,4 +59,11 @@
     border-radius: 5px;
     box-sizing: border-box;
   }
+
+  
+  
+ 
+  
+  
+  
   

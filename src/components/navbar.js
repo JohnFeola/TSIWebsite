@@ -1,7 +1,7 @@
 // Navbar.js
 import React from 'react';
 import './navbar.css'; // Optional: import your CSS file
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -17,13 +17,13 @@ const Navbar = () => {
     </div>
       <ul className="navbar-links">
         <li className="nav-item">
-          <a href="#about-us" className="nav-link">Home</a>
+          <NavLink to="/" className="nav-link">Home</NavLink>
         </li>
         <li className="nav-item">
-          <a href="#how-sprinklers-work" className="nav-link">How Sprinklers Work</a>
+          <NavLink to="/how-sprinklers-work" className="nav-link" activeClassName="active">How Sprinklers Work</NavLink>
         </li>
-        <li className="nav-item">
-          <a href="#contact-us" className="nav-link">Contact Us</a>
+        <li className="nav-item dropdown">
+          <NavLink to="/contact-us" className="nav-link" id='uto' activeClassName="active">Contact Us</NavLink>
         </li>
       </ul>
     </nav>

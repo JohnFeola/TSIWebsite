@@ -2,6 +2,7 @@ import React from 'react';
 import './howsprinklerswork.css'; // Optional: import your CSS file
 import { Link } from 'react-router-dom';
 import YouTube from 'react-youtube';
+import LazyLoad from 'react-lazyload';
 
 const HowSprinklersWork = () => {
   const videoId = 'NXAgjKDFc14'; // Replace with your YouTube video ID
@@ -36,10 +37,14 @@ const HowSprinklersWork = () => {
   return (
     <div className='parent'>
         <div className='how-sprinklers-work'>
+            <LazyLoad height={390} offset={10}>
         <YouTube videoId={videoId} opts={opts} />
+        </LazyLoad>
         </div>
         <div className='how-sprinklers-work2'>
+            <LazyLoad height={390} offset={10}>
             <YouTube videoId={videoId2} opts={opts2}/>
+            </LazyLoad>
         </div>
     </div>
   );

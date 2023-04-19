@@ -5,7 +5,10 @@ const Home = () => {
   return (
     <div className='home'>
         <div className='home-paragraph-one'>
-            <p>Townhouse Sprinklers has been installing residential fire protection sprinkler systems since 1985. Contact us for a free estimate.</p>
+            <p id='intro'> Townhouse Sprinklers has been installing residential fire protection sprinkler systems since 1985. Contact us for a free estimate. If you 
+            are honme builder, just contact us for Townhouse Sprinklers has been installing residential fire protection sprinkler systems since 1985. Contact us for a free estimate. If you 
+            are honme builder, just contact us for Townhouse Sprinklers has been installing residential fire protection sprinkler systems since 1985. Contact us for a free estimate. If you 
+            are honme builder, just contact us for  </p>
         </div>
         <div className='home-paragraph-two'>
             <ul>We operate in the following locations:
